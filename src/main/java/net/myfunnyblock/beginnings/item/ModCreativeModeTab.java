@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab Beginnings_TAB = new CreativeModeTab("beginningstab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.DARKBLADE.get());
+            return new ItemStack(ModItems.DARKESSENCEINGOT.get());
 
         }
     };
