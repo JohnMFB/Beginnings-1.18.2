@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CDC",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lava_bucket"
+    },
+    "B": {
+      "item": "beginnings:unstable_essence_block"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "D": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "beginnings:dark_essence_block"
+  }
+}

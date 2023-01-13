@@ -21,11 +21,11 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Beginnings.MOD_ID);
 
     public static final RegistryObject<Block> DarkEssenceBlock = registerBlock("dark_essence_block",
-    () -> new Block(BlockBehaviour.Properties.of(Material.EXPLOSIVE).noCollission().strength(9f)
+    () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(9f)
             .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
 
     public static final RegistryObject<Block> UNSTABLEEssenceBlock = registerBlock("unstable_essence_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.EXPLOSIVE).noCollission().strength(9f)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(9f)
                     .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
 
     private static <T extends Block> RegistryObject<T>

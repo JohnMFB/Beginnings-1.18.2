@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "group": "dark_essence_ingot",
+  "ingredient": {
+    "item": "beginnings:dark_essence_block"
+  },
+  "result": "beginnings:dark_essence_ingot",
+  "experience": 5.0,
+  "cookingtime": 1000
+}
+
+
+

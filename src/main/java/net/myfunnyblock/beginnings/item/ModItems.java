@@ -20,6 +20,9 @@ public class ModItems
     public static final RegistryObject<Item> ABILITY1 = ITEMS.register("ability1",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
+    public static final RegistryObject<Item> DARKESSENCEINGOT = ITEMS.register("dark_essence_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
