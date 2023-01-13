@@ -1,6 +1,6 @@
 package net.myfunnyblock.beginnings.item;
 
-import net.minecraft.world.item.CreativeModeTab;
+
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,13 +15,13 @@ public class ModItems
 
     //Add new mods below
     public static final RegistryObject<Item> DARKBLADE = ITEMS.register("dark_blade",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Beginnings_TAB)));
 
     public static final RegistryObject<Item> ABILITY1 = ITEMS.register("ability1",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Beginnings_TAB)));
 
     public static final RegistryObject<Item> DARKESSENCEINGOT = ITEMS.register("dark_essence_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Beginnings_TAB)));
 
     public static void register(IEventBus eventBus)
     {

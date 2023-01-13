@@ -24,8 +24,6 @@ import java.util.stream.Collectors;
 @Mod(Beginnings.MOD_ID)
 public class Beginnings {
     public static final String MOD_ID = "beginnings";
-
-
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Beginnings() {
