@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.myfunnyblock.beginnings.block.ModBlocks;
+import net.myfunnyblock.beginnings.enchantment.ModEnchantments;
 import net.myfunnyblock.beginnings.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,7 +33,7 @@ public class Beginnings {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
-
+        ModEnchantments.register(eventBus);
 
         eventBus.addListener(this::setup);
 

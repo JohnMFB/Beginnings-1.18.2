@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "beginnings:item/dark_blade"
+    "layer0": "beginnings:item/dark_blade_broken"
   }
 }
