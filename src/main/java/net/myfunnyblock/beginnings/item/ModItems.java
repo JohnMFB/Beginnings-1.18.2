@@ -13,8 +13,13 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Beginnings.MOD_ID);
 
-    public static final RegistryObject<Item> DEATHBLADE = ITEMS.register("death_blade",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    //Add new mods below
+    public static final RegistryObject<Item> DARKBLADE = ITEMS.register("dark_blade",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
+    public static final RegistryObject<Item> ABILITY1 = ITEMS.register("ability1",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

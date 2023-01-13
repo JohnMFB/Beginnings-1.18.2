@@ -1,3 +1,6 @@
 {
-  "item.beginnings.death_blade":"Death Blade"
+  "item.beginnings.dark_blade":"Darkness Ethereal Blade",
+  "item.beginnings.ability1":"Ability 1",
+  "block.beginnings.dark_essence_block": "Dark Essence Block",
+  "block.beginnings.unstable_essence_block": "Unstable Essence Block"
 }

@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.myfunnyblock.beginnings.block.ModBlocks;
 import net.myfunnyblock.beginnings.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,6 +33,8 @@ public class Beginnings {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
 
         eventBus.addListener(this::setup);
 
