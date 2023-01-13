@@ -37,7 +37,7 @@ public class ModBlocks {
         return toReturn;
     }
     //T MUST extend block tab
-    //
+
     private static <T extends Block>RegistryObject<Item>
     registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab)
     {
